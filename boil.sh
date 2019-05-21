@@ -11,7 +11,7 @@ echo "Installation done. Now configurtion..."
 mkdir -p ~/.config/i3/ ~/.config/termite/
 echo "Copy cfg files..." 
 cp -v $MY_PATH/i3/config  ~/.config/i3/config
-
+i3-msg restart
 #install i3-gaps, git, compton, termite
 
 
