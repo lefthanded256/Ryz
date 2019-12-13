@@ -186,7 +186,7 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 4%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 4%-
 bindsym XF86AudioMute exec --no-startup-id amixer -D pulse set Master 1+ toggle
 
-bindsym $mod+F2 exec --no-startup-id i3lock -c 222222 #000000
+bindsym $mod+p exec --no-startup-id i3lock -c 222222 #000000
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
@@ -214,7 +214,7 @@ bindsym $mod+Ctrl+k		move workspace to output up
 #bindsym $mod+Shift+l		move right 30
 bindsym $mod+Ctrl+l		move workspace to output right
 
-bindsym $mod+Shift+y		resize shrink	width 	10 px
-bindsym $mod+Shift+u		resize grow	height	10 px
-bindsym $mod+Shift+i		resize shrink	height	10 px
-bindsym $mod+Shift+o		resize grow	width	10 px
+bindsym $mod+y		resize shrink	width 	10 px
+bindsym $mod+u		resize grow		height	10 px
+bindsym $mod+i		resize shrink	height	10 px
+bindsym $mod+o		resize grow		width	10 px
